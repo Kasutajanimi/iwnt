@@ -318,6 +318,7 @@ DEPENDENCIES
   mime-types
   pry
   puma
+  rack-cache
   rails (= 3.2.19)
   rspec-rails (~> 2.0)
   rvm-capistrano

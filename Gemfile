@@ -23,6 +23,10 @@ group :development do
   gem 'rvm-capistrano'
 end
 
+group :production do
+  gem 'rack-cache', :require => 'rack/cache'
+end
+
 gem 'locomotive_cms', '~> 2.5.6', :require => 'locomotive/engine'
 
 # Gems used only for assets and not required
